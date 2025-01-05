@@ -21,21 +21,51 @@ function App() {
   }, []);
 
   const handleSearch = (searchCriteria) => {
+    const monthMap = {
+      January: 0,
+      February: 1,
+      March: 2,
+      April: 3,
+      May: 4,
+      June: 5,
+      July: 6,
+      August: 7,
+      September: 8,
+      October: 9,
+      November: 10,
+      December: 11,
+    };
+  
     const filtered = properties.filter((property) => {
       const typeMatch = searchCriteria.type === 'any' || property.type === searchCriteria.type;
       const priceMatch = (!searchCriteria.minPrice || property.price >= searchCriteria.minPrice) &&
                          (!searchCriteria.maxPrice || property.price <= searchCriteria.maxPrice);
       const bedroomsMatch = (!searchCriteria.minBedrooms || property.bedrooms >= searchCriteria.minBedrooms) &&
                             (!searchCriteria.maxBedrooms || property.bedrooms <= searchCriteria.maxBedrooms);
-      const dateMatch = (!searchCriteria.dateAfter || new Date(property.added.year, property.added.month , property.added.day) >= new Date(searchCriteria.dateAfter)) &&
-                        (!searchCriteria.dateBefore || new Date(property.added.year, property.added.month, property.added.day) <= new Date(searchCriteria.dateBefore));
+  
+      // Convert `added` object to a Date object
+      const propertyDate = new Date(
+        property.added.year,
+        monthMap[property.added.month],
+        property.added.day
+      );
+  
+      // Convert user input dates to Date objects
+      const dateAfter = searchCriteria.dateAfter ? new Date(searchCriteria.dateAfter) : null;
+      const dateBefore = searchCriteria.dateBefore ? new Date(searchCriteria.dateBefore) : null;
+  
+      // Date matching logic
+      const dateMatch = (!dateAfter || propertyDate >= dateAfter) &&
+                        (!dateBefore || propertyDate <= dateBefore);
+  
       const postcodeMatch = !searchCriteria.postcode || property.postcode.startsWith(searchCriteria.postcode.toUpperCase());
-
+  
       return typeMatch && priceMatch && bedroomsMatch && dateMatch && postcodeMatch;
     });
-
+  
     setFilteredProperties(filtered);
   };
+  
 
   const toggleFavorite = (property) => {
     const isFavorite = favorites.some((fav) => fav.id === property.id);
