@@ -18,7 +18,7 @@
   .header h1 {
     margin: 0;
     font-size: 1rem; /* Adjust size to your preference */
-    font-weight: 700; /* Bold font weight for emphasis */
+    font-weight:bold; /* Bold font weight for emphasis */
     color: #009FA5; /* Your theme color */
     letter-spacing: 2px; /* Add spacing between letters */
     text-transform: uppercase; /* Capitalize letters for a logo feel */
@@ -50,7 +50,7 @@
   .header nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
   }
   
   .header nav ul li a:hover {
@@ -65,7 +65,7 @@
     }
 
     .header h1 {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .header nav ul {
