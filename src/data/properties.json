@@ -1,0 +1,178 @@
+{
+  "properties": [
+    {
+      "id": "prop1",
+      "type": "House",
+      "bedrooms": 3,
+      "price": 650000,
+      "tenure": "Freehold",
+      "description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland.",
+      "location": "Sweden Wood",
+      "picture": "house.png",
+      "url": "house.png",
+      "added": {
+        "month": "October",
+        "day": 12,
+        "year": 2022
+      },
+      "postcode": "BR2",
+      "floorPlan": "https://img.favpng.com/23/20/17/house-plan-storey-floor-plan-png-favpng-R5y6J4Kka78Ex6rKfaVitrmgz.jpg",
+      "images": [
+        "https://png.pngtree.com/background/20230618/original/pngtree-interior-design-concept-of-mountain-house-in-beautiful-3d-render-picture-image_3709581.jpg",
+        "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmwxOTUwODU5MjIxMC1pbWFnZS1reWJlbjczbS5qcGc.jpg",
+        "https://i.ytimg.com/vi/MdTDEpVRLqw/sddefault.jpg"
+      ],
+      "googleMap":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4380983.067154231!2d4.699134124999996!3d57.57788109999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a0879d969c3a3%3A0x7e629b47a6ff5e26!2sSWEDEN%20TIMBER!5e0!3m2!1sen!2slk!4v1736011424856!5m2!1sen!2slk"
+    },
+    {
+      "id": "prop2",
+      "type": "Flat",
+      "bedrooms": 2,
+      "price": 375000,
+      "tenure": "Freehold",
+      "description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances.",
+      "location": "Orpington",
+      "picture": "flat1.png",
+      "url": "flat1.png",
+      "added": {
+        "month": "September",
+        "day": 14,
+        "year": 2022
+      },
+      "postcode": "BR3",
+      "floorPlan": "https://w7.pngwing.com/pngs/315/573/png-transparent-bedroom-house-plan-3d-floor-plan-3d-design-apartment-room-plan.png",
+      "images": [
+        "https://png.pngtree.com/background/20230618/original/pngtree-interior-design-concept-of-mountain-house-in-beautiful-3d-render-picture-image_3709581.jpg",
+        "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmwxOTUwODU5MjIxMC1pbWFnZS1reWJlbjczbS5qcGc.jpg",
+        "https://i.ytimg.com/vi/MdTDEpVRLqw/sddefault.jpg"
+      ],
+      "googleMap":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4380983.067154231!2d4.699134124999996!3d57.57788109999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a0879d969c3a3%3A0x7e629b47a6ff5e26!2sSWEDEN%20TIMBER!5e0!3m2!1sen!2slk!4v1736011424856!5m2!1sen!2slk"
+    },
+    {
+      "id": "prop3",
+      "type": "House",
+      "bedrooms": 3,
+      "price": 720000,
+      "tenure": "Freehold",
+      "description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland.",
+      "location": "Petts Wood",
+      "picture": "p1.png",
+      "url": "p1.png",
+      "added": {
+        "month": "October",
+        "day": 12,
+        "year": 2022
+      },
+      "postcode": "BR5",
+      "floorPlan": "https://i.pinimg.com/236x/30/be/a9/30bea93dbefea4161346a2bdabb49900.jpg",
+      "images": [
+        "https://png.pngtree.com/background/20230618/original/pngtree-interior-design-concept-of-mountain-house-in-beautiful-3d-render-picture-image_3709581.jpg",
+        "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmwxOTUwODU5MjIxMC1pbWFnZS1reWJlbjczbS5qcGc.jpg",
+        "https://i.ytimg.com/vi/MdTDEpVRLqw/sddefault.jpg",
+        "https://www.bellacollina.com/hs-fs/hubfs/Real%20Estate/Move-in%20Ready%20Homes/Homesite%20355E%2015231%20Pendio%20Dr/Optimized%20Images/Homesite%20355E%2015231%20Pendio%20Dr%208-1.png?width=1280&name=Homesite%20355E%2015231%20Pendio%20Dr%208-1.png"
+      ],
+      "googleMap":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4380983.067154231!2d4.699134124999996!3d57.57788109999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a0879d969c3a3%3A0x7e629b47a6ff5e26!2sSWEDEN%20TIMBER!5e0!3m2!1sen!2slk!4v1736011424856!5m2!1sen!2slk"
+    },
+    {
+      "id": "prop4",
+      "type": "Flat",
+      "bedrooms": 2,
+      "price": 385000,
+      "tenure": "Freehold",
+      "description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. Features include bi folding doors onto a secluded private courtyard garden.",
+      "location": "Orpington",
+      "picture": "flat2.jpg",
+      "url": "flat2.jpg",
+      "added": {
+        "month": "September",
+        "day": 14,
+        "year": 2022
+      },
+      "postcode": "BR6",
+      "floorPlan": "https://w7.pngwing.com/pngs/315/573/png-transparent-bedroom-house-plan-3d-floor-plan-3d-design-apartment-room-plan.png",
+      "images": [
+        "https://png.pngtree.com/background/20230618/original/pngtree-interior-design-concept-of-mountain-house-in-beautiful-3d-render-picture-image_3709581.jpg",
+        "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmwxOTUwODU5MjIxMC1pbWFnZS1reWJlbjczbS5qcGc.jpg",
+        "https://i.ytimg.com/vi/MdTDEpVRLqw/sddefault.jpg",
+        "https://www.bellacollina.com/hs-fs/hubfs/Real%20Estate/Move-in%20Ready%20Homes/Homesite%20355E%2015231%20Pendio%20Dr/Optimized%20Images/Homesite%20355E%2015231%20Pendio%20Dr%208-1.png?width=1280&name=Homesite%20355E%2015231%20Pendio%20Dr%208-1.png"
+      ],
+      "googleMap":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4380983.067154231!2d4.699134124999996!3d57.57788109999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a0879d969c3a3%3A0x7e629b47a6ff5e26!2sSWEDEN%20TIMBER!5e0!3m2!1sen!2slk!4v1736011424856!5m2!1sen!2slk"
+    },
+    {
+      "id": "prop5",
+      "type": "House",
+      "bedrooms": 4,
+      "price": 850000,
+      "tenure": "Freehold",
+      "description": "Spacious four-bedroom detached house with a large garden and modern amenities. Features include a newly renovated kitchen, open-plan living area, and a home office.",
+      "location": "Chislehurst",
+      "picture": "house2.png",
+      "url": "house2.png",
+      "added": {
+        "month": "November",
+        "day": 5,
+        "year": 2022
+      },
+      "postcode": "BR7",
+      "floorPlan": "https://cdn-5.urmy.net/images/plans/DTE/bulk/7459/Optimized-M4204A3FT-0-MAIN.jpg",
+      "images": [
+        "https://png.pngtree.com/background/20230618/original/pngtree-interior-design-concept-of-mountain-house-in-beautiful-3d-render-picture-image_3709581.jpg",
+        "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmwxOTUwODU5MjIxMC1pbWFnZS1reWJlbjczbS5qcGc.jpg",
+        "https://i.ytimg.com/vi/MdTDEpVRLqw/sddefault.jpg",
+        "https://www.bellacollina.com/hs-fs/hubfs/Real%20Estate/Move-in%20Ready%20Homes/Homesite%20355E%2015231%20Pendio%20Dr/Optimized%20Images/Homesite%20355E%2015231%20Pendio%20Dr%208-1.png?width=1280&name=Homesite%20355E%2015231%20Pendio%20Dr%208-1.png"
+      ],
+      "googleMap":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4380983.067154231!2d4.699134124999996!3d57.57788109999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a0879d969c3a3%3A0x7e629b47a6ff5e26!2sSWEDEN%20TIMBER!5e0!3m2!1sen!2slk!4v1736011424856!5m2!1sen!2slk"
+    },
+    {
+      "id": "prop6",
+      "type": "Flat",
+      "bedrooms": 1,
+      "price": 250000,
+      "tenure": "Leasehold",
+      "description": "Modern one-bedroom apartment in a newly built complex. Features include a balcony with city views, open-plan kitchen and living area, and access to communal gardens.",
+      "location": "Bromley",
+      "picture": "flat3.jpg",
+      "url": "flat3.jpg",
+      "added": {
+        "month": "December",
+        "day": 1,
+        "year": 2022
+      },
+      "postcode": "BR1",
+      "floorPlan": "https://w7.pngwing.com/pngs/315/573/png-transparent-bedroom-house-plan-3d-floor-plan-3d-design-apartment-room-plan.png",
+      "images": [
+        "https://png.pngtree.com/background/20230618/original/pngtree-interior-design-concept-of-mountain-house-in-beautiful-3d-render-picture-image_3709581.jpg",
+        "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmwxOTUwODU5MjIxMC1pbWFnZS1reWJlbjczbS5qcGc.jpg",
+        "https://i.ytimg.com/vi/MdTDEpVRLqw/sddefault.jpg",
+        "https://www.bellacollina.com/hs-fs/hubfs/Real%20Estate/Move-in%20Ready%20Homes/Homesite%20355E%2015231%20Pendio%20Dr/Optimized%20Images/Homesite%20355E%2015231%20Pendio%20Dr%208-1.png?width=1280&name=Homesite%20355E%2015231%20Pendio%20Dr%208-1.png"
+      ],
+      "googleMap":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4380983.067154231!2d4.699134124999996!3d57.57788109999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a0879d969c3a3%3A0x7e629b47a6ff5e26!2sSWEDEN%20TIMBER!5e0!3m2!1sen!2slk!4v1736011424856!5m2!1sen!2slk"
+    },
+    {
+      "id": "prop7",
+      "type": "House",
+      "bedrooms": 5,
+      "price": 1100000,
+      "tenure": "Freehold",
+      "description": "Luxurious five-bedroom detached house with a large garden and swimming pool. Features include a modern kitchen with high-end appliances, a home cinema room, and a double garage.",
+      "location": "Farnborough Park",
+      "picture": "house3.png",
+      "url": "house3.png",
+      "added": {
+        "month": "January",
+        "day": 15,
+        "year": 2023
+      },
+      "postcode": "BR6",
+      "floorPlan": "https://w7.pngwing.com/pngs/315/573/png-transparent-bedroom-house-plan-3d-floor-plan-3d-design-apartment-room-plan.pnghttps://cdn.houseplansservices.com/product/4l3bjn91u7c45ssmedvcbc587m/w1024.jpg?v=2",
+      "images": [
+        "https://png.pngtree.com/background/20230618/original/pngtree-interior-design-concept-of-mountain-house-in-beautiful-3d-render-picture-image_3709581.jpg",
+        "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmwxOTUwODU5MjIxMC1pbWFnZS1reWJlbjczbS5qcGc.jpg",
+        "https://i.ytimg.com/vi/MdTDEpVRLqw/sddefault.jpg",
+        "https://www.bellacollina.com/hs-fs/hubfs/Real%20Estate/Move-in%20Ready%20Homes/Homesite%20355E%2015231%20Pendio%20Dr/Optimized%20Images/Homesite%20355E%2015231%20Pendio%20Dr%208-1.png?width=1280&name=Homesite%20355E%2015231%20Pendio%20Dr%208-1.png"
+      ],
+      "googleMap":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4380983.067154231!2d4.699134124999996!3d57.57788109999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a0879d969c3a3%3A0x7e629b47a6ff5e26!2sSWEDEN%20TIMBER!5e0!3m2!1sen!2slk!4v1736011424856!5m2!1sen!2slk"
+    }
+    
+  ]
+}
