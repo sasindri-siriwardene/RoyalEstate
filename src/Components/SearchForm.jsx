@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './SearchForm.css';
 
 function SearchForm({ onSearch }) {
-  const [searchCriteria, setSearchCriteria] = useState({
+  const initialCriteria = {
     type: 'any',
     minPrice: '',
     maxPrice: '',
@@ -11,7 +11,9 @@ function SearchForm({ onSearch }) {
     dateAfter: '',
     dateBefore: '',
     postcode: '',
-  });
+  };
+
+  const [searchCriteria, setSearchCriteria] = useState(initialCriteria);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -21,6 +23,10 @@ function SearchForm({ onSearch }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     onSearch(searchCriteria);
+  };
+
+  const handleClear = () => {
+    setSearchCriteria(initialCriteria);
   };
 
   return (
@@ -144,11 +150,18 @@ function SearchForm({ onSearch }) {
           onChange={handleChange}
         />
       </div>
-      
+      <div className="form-group button-group">
         <button className="button" type="submit">
           Search
         </button>
-    
+        <button
+          className="button clear-button"
+          type="button"
+          onClick={handleClear}
+        >
+          Clear
+        </button>
+      </div>
     </form>
   );
 }
