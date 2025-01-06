@@ -37,7 +37,7 @@ This project is a client-side web application for an estate agent, developed as 
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/sasindri-siriwardene/RoyalEstate.git>
    ```
 2. Navigate to the project directory:
    ```bash
@@ -49,7 +49,7 @@ This project is a client-side web application for an estate agent, developed as 
    ```
 4. Start the application:
    ```bash
-   npm start
+   npm run dev
    ```
 
 
