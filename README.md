@@ -26,8 +26,6 @@ This project is a client-side web application for an estate agent, developed as 
 - Visual hierarchy with headings, subheadings, consistent font styles, and alignment.
 - Effective use of images and colors for visual appeal.
 
-### Security
-- Client-side protection using CSP and HTML encoding.
 
 ## Installation
 
