@@ -52,8 +52,11 @@ This project is a client-side web application for an estate agent, developed as 
    npm run dev
    ```
 
+**To install all these dependencies at once, ::**
 
-### Important Note on `node_modules`
+ ```bash
+npm install @headlessui/react react react-dom react-router-dom
+```
 
 
 ## Usage
