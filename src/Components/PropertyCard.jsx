@@ -2,6 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './PropertyCard.css'; // Import the CSS file
 
+/**
+ * PropertyCard component renders information about a property.
+ * 
+ * @param {Object} property - The property details to display.
+ * @param {boolean} isFavorite - Whether the property is marked as a favorite.
+ * @param {Function} onToggleFavorite - Function to toggle the favorite status of the property.
+ * 
+ * @returns {JSX.Element} The JSX for displaying the property card.
+ */
 function PropertyCard({ property, isFavorite, onToggleFavorite }) {
   return (
     <div className="property-card">

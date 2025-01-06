@@ -9,8 +9,16 @@ import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Hero from './Components/Hero';
+/**
+ * The main App component that manages the entire application logic.
+ * It contains the search functionality, displays the property list,
+ * handles favorites, and navigates between different views.
+ * 
+ * @returns {JSX.Element} The rendered app component.
+ */
 
 function App() {
+  // State hooks for properties, filtered properties, and favorites
   const [properties, setProperties] = useState(propertiesData.properties);
   const [filteredProperties, setFilteredProperties] = useState(properties);
   const [favorites, setFavorites] = useState([]);
@@ -19,6 +27,12 @@ function App() {
     const storedFavorites = JSON.parse(localStorage.getItem('favorites')) || [];
     setFavorites(storedFavorites);
   }, []);
+
+      /**
+   * Handles search form submission, filters properties based on search criteria.
+   * 
+   * @param {Object} searchCriteria - The criteria entered by the user.
+   */
 
   const handleSearch = (searchCriteria) => {
     const monthMap = {

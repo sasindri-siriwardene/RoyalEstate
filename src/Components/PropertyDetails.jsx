@@ -2,12 +2,20 @@ import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Tab } from '@headlessui/react';
 import './PropertyDetails.css';
-
+/**
+ * PropertyDetails component displays detailed information about a selected property.
+ * It includes an image gallery, property description, floor plan, and a map location.
+ * 
+ * @param {Object[]} properties - List of properties.
+ * @returns {JSX.Element} The JSX for displaying the property details.
+ */
 function PropertyDetails({ properties }) {
+  // Extract the property ID from the URL parameters
   const { id } = useParams();
+  // Find the property based on the ID from the URL
   const property = properties.find((p) => p.id === id);
   const [currentImage, setCurrentImage] = useState(0);
-
+// If the property is not found, display a 'Property not found' message
   if (!property) {
     return <div>Property not found</div>;
   }

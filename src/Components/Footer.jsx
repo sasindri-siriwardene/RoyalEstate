@@ -1,5 +1,12 @@
 import './Footer.css';
-
+/**
+ * Footer Component
+ * 
+ * Displays the footer section of the web application, including company information,
+ * contact details, and a copyright notice.
+ *
+ * @returns {JSX.Element} JSX markup for the footer.
+ */
 const Footer = () => {
   return (
    

@@ -1,7 +1,16 @@
 import React, { useState } from 'react';
 import './SearchForm.css';
-
+/**
+ * SearchForm component allows users to input property search criteria.
+ * It provides fields for property type, price range, number of bedrooms,
+ * dates, and postcode. When submitted, it triggers the onSearch callback
+ * with the current search criteria.
+ * 
+ * @param {Function} onSearch - Callback function to handle the search submission.
+ * @returns {JSX.Element} The JSX for displaying the search form.
+ */
 function SearchForm({ onSearch }) {
+  // Initialize state with default search criteria
   const initialCriteria = {
     type: 'any',
     minPrice: '',
@@ -14,6 +23,7 @@ function SearchForm({ onSearch }) {
   };
 
   const [searchCriteria, setSearchCriteria] = useState(initialCriteria);
+  // Handle input changes to update search criteria
 
   const handleChange = (e) => {
     const { name, value } = e.target;

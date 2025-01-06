@@ -1,6 +1,13 @@
 import React from 'react';
 import './Hero.css';
-
+/**
+ * HeroSection Component
+ * 
+ * Displays the hero section of the web application, featuring a welcoming message,
+ * promotional content, and a call-to-action button alongside an image.
+ *
+ * @returns {JSX.Element} JSX markup for the hero section.
+ */
 const HeroSection = () => {
   return (
     <div className="hero">

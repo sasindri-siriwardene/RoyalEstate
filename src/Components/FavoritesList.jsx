@@ -1,7 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './FavoritesList.css'; // Import the external CSS file
-
+/**
+ * FavoritesList Component
+ * 
+ * Displays a list of favorite properties, with options to remove individual properties
+ * or clear the entire favorites list.
+ *
+ * @param {Object[]} favorites - List of favorite properties.
+ * @param {function} onToggleFavorite - Callback to toggle a property's favorite status.
+ * @param {function} onClearFavorites - Callback to clear all favorite properties.
+ */
 function FavoritesList({ favorites, onToggleFavorite, onClearFavorites }) {
   return (
     <div className="favorites-container">

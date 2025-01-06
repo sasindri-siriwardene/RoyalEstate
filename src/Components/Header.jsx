@@ -1,9 +1,19 @@
 import React, { useState } from 'react';
 import './Header.css';
-
+/**
+ * Header Component
+ * 
+ * Displays the header section of the web application, including a site title,
+ * a navigation menu, and a responsive hamburger menu for mobile devices.
+ *
+ * @returns {JSX.Element} JSX markup for the header.
+ */
 const Header = () => {
+   // State to track the visibility of the mobile navigation menu
   const [menuOpen, setMenuOpen] = useState(false);
-
+ /**
+   * Toggles the visibility of the navigation menu
+   */
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
