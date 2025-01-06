@@ -54,10 +54,7 @@ This project is a client-side web application for an estate agent, developed as 
 
 
 ### Important Note on `node_modules`
-The `node_modules` folder is excluded from the project to comply with submission requirements. To ensure the project runs:
-1. After cloning the repository, run `npm install` to regenerate the `node_modules` folder.
-2. This will install all necessary dependencies based on the `package.json` file.
-3. Verify the setup by running `npm start`.
+
 
 ## Usage
 1. Use the search form to filter properties by criteria.
@@ -70,8 +67,4 @@ The `node_modules` folder is excluded from the project to comply with submission
 - **Consistency**: Unified design elements across the application.
 - **Usability**: Easy navigation and intuitive interactions.
 - **Performance**: Optimized for smooth performance across devices.
-
-## Security Measures
-- Enforced client-side security to protect against potential vulnerabilities.
-- HTML encoding within JSX to prevent injection attacks.
 
